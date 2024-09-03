@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <BackgroundBeams/>
+        <div className='flex min-h-200 p-4 font-extrabold font m-2 text-4xl justify-center items-center align-middle bg-slate-300 text-black rounded-xl'>
+          WORKSPACE
+        </div>
+          {children}
+        </body>
     </html>
   );
 }
