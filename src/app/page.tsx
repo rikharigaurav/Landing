@@ -73,7 +73,7 @@ export default function Component() {
                 <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
                   Unified Platform: Combines chat, meetings, cloud storage,
                   calendar, and canvas into one integrated system for
-                  streamlined classroom management.
+                  streamlined management.
                 </p>
               </div>
               <div className='flex flex-col gap-2 min-[400px]:flex-row'>
@@ -97,7 +97,7 @@ export default function Component() {
                 </h2>
                 <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
                   Vector Store Integration: Securely stores and organizes all
-                  classroom resources, including canvas boards, meeting notes,
+                  resources, including canvas boards, meeting notes,
                   and documents, allowing easy and intelligent retrieval.
                 </p>
               </div>
@@ -207,8 +207,8 @@ export default function Component() {
                 </h2>
                 <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
                   AI-Driven Automated Scheduling: Automatically schedules
-                  meetings, quizzes, and assignments based on real-time data
-                  from the course.
+                  meetings, quizzes, assignments, envents, holidays and other task based on real-time data
+                  from the organization.
                 </p>
               </div>
               <div className='flex flex-col gap-2 min-[400px]:flex-row'>
@@ -232,7 +232,7 @@ export default function Component() {
                 </h2>
                 <p className='text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
                   Knowledge Graph Creation: Uses AI to analyze stored data,
-                  generating a knowledge graph to track student progress and
+                  generating a knowledge graph to track progress and
                   highlight areas for improvement.
                 </p>
               </div>
